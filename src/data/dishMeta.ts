@@ -1,0 +1,41 @@
+import type { DishMeta } from '../types'
+
+export const dishMeta: Record<string, DishMeta> = {
+  'Air Fryer Egg Rolls': { chapter: 'Snacks', flavors: ['Crispy', 'Savory'] },
+  'Beef and Broccoli Stir-Fry': { chapter: 'Home Cooking', flavors: ['Savory', 'Fresh'] },
+  'Beef Lo Mein': { chapter: 'Noodles and Rice', flavors: ['Savory', 'Filling'] },
+  'Chicken Congee': { chapter: 'Noodles and Rice', flavors: ['Light', 'Comforting'] },
+  'Chicken Fried Rice': { chapter: 'Noodles and Rice', flavors: ['Savory', 'Filling'] },
+  'Chinese Orange Chicken': { chapter: 'Sweet and Sour', flavors: ['Sweet', 'Crispy'] },
+  'Chinese Tomato Egg Stir Fry': { chapter: 'Home Cooking', flavors: ['Sweet', 'Fresh'] },
+  'Egg Drop Soup': { chapter: 'Soups', flavors: ['Light', 'Comforting'] },
+  'Egg Foo Young': { chapter: 'Home Cooking', flavors: ['Savory', 'Fresh'] },
+  'General Tsos Chicken': { chapter: 'Sweet and Sour', flavors: ['Sweet', 'Spicy'] },
+  'Hot and Sour Soup': { chapter: 'Soups', flavors: ['Sour', 'Spicy'] },
+  'Kung Pao Chicken': { chapter: 'Sichuan Flavors', flavors: ['Spicy', 'Sweet'] },
+  'Kung Po Prawns': { chapter: 'Sichuan Flavors', flavors: ['Spicy', 'Savory'] },
+  'Ma Po Tofu': { chapter: 'Sichuan Flavors', flavors: ['Spicy', 'Savory'] },
+  'Napa Cabbage with Dried Shrimp': { chapter: 'Home Cooking', flavors: ['Light', 'Savory'] },
+  'Ramen Noodles with Boiled Egg': { chapter: 'Noodles and Rice', flavors: ['Comforting', 'Filling'] },
+  'Sesame Cucumber Salad': { chapter: 'Cold Dishes', flavors: ['Fresh', 'Nutty'] },
+  'Shrimp Chow Fun': { chapter: 'Noodles and Rice', flavors: ['Savory', 'Fresh'] },
+  'Shrimp With Snow Peas': { chapter: 'Home Cooking', flavors: ['Light', 'Fresh'] },
+  'Sichuan Eggplant': { chapter: 'Sichuan Flavors', flavors: ['Spicy', 'Savory'] },
+  'Sichuan Style Stir-Fried Chinese Long Beans': { chapter: 'Sichuan Flavors', flavors: ['Spicy', 'Savory'] },
+  'Silken Tofu with Sesame Soy Sauce': { chapter: 'Cold Dishes', flavors: ['Light', 'Nutty'] },
+  'Singapore Noodles with Shrimp': { chapter: 'Noodles and Rice', flavors: ['Savory', 'Filling'] },
+  'Sweet and Sour Chicken': { chapter: 'Sweet and Sour', flavors: ['Sweet', 'Crispy'] },
+  'Sweet and Sour Pork': { chapter: 'Sweet and Sour', flavors: ['Sweet', 'Crispy'] },
+  'Szechuan Beef': { chapter: 'Sichuan Flavors', flavors: ['Spicy', 'Savory'] },
+  Wontons: { chapter: 'Snacks', flavors: ['Light', 'Comforting'] },
+}
+
+export const chapterDescriptions: Record<string, string> = {
+  'Cold Dishes': 'Simple ingredients and cool, refreshing flavors make these dishes easy to enjoy at the start of a meal.',
+  'Home Cooking': 'Everyday ingredients and familiar cooking methods create food that feels warm and comforting.',
+  'Noodles and Rice': 'Rice, noodles, and congee are filling staples found on tables across China.',
+  'Sichuan Flavors': 'Chili peppers and bold seasonings create the spicy and savory flavors associated with Sichuan cooking.',
+  Snacks: 'Small dishes and handheld foods are perfect for sharing or enjoying between meals.',
+  Soups: 'Warm broths bring ingredients together in a simple and comforting way.',
+  'Sweet and Sour': 'A balance of sugar and vinegar creates one of the most recognizable Chinese flavor combinations.',
+}
